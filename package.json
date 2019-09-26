@@ -1,9 +1,13 @@
 {
   "name": "@storybook/eslint-config-storybook",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "tiny wrapper because eslint really really wants a package name that contains eslint-config-",
   "main": "index.js",
-  "keywords": ["eslint", "storybook", "config"],
+  "keywords": [
+    "eslint",
+    "storybook",
+    "config"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
