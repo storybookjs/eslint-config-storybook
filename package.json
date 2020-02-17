@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@storybook/linter-config": "2.1.0"
+    "@storybook/linter-config": "2.3.0"
   }
 }
