@@ -59,7 +59,7 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@storybook/linter-config@2.5.0":
+"@storybook/linter-config@^2.5.0":
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/@storybook/linter-config/-/linter-config-2.5.0.tgz#15b0e6956773b1994f99676521d9d845ee8882b1"
   integrity sha512-rsgl4lRIIsFEa1lglhfe4KXq9oCkWa2kPXwkyy5A5lxf39F7nFEhHPfb9lHcY1GtfgZ+Wvepl3dgAzTBTfcMew==
