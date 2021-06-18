@@ -59,10 +59,10 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@storybook/linter-config@3.1.0-beta.0":
-  version "3.1.0-beta.0"
-  resolved "https://registry.yarnpkg.com/@storybook/linter-config/-/linter-config-3.1.0-beta.0.tgz#be90f7003921deed4ba4cd6fdead9c3be199e23c"
-  integrity sha512-T+BZQ+rsUxNUnZNdPtW2c4wIphTLOvr5DlGAx5UhoT4QvNrzapgRnLMtOiZMKAD4pM+p8ionsIGgwvXHjNyY8g==
+"@storybook/linter-config@3.1.0-beta.1":
+  version "3.1.0-beta.1"
+  resolved "https://registry.yarnpkg.com/@storybook/linter-config/-/linter-config-3.1.0-beta.1.tgz#ce2b5e12a37ca8b8f5da68681be455c77e91645a"
+  integrity sha512-TxISgVDWRtimklKTVl/D6LiIGN4GH0lhY1DZSHXuzzSK2wXYphlDA2cmD5AHjS7fcWrk1CvMxv0VcEFFrreYvA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.27.0"
     eslint-config-airbnb-typescript "^12.3.1"
