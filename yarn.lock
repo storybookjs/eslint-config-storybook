@@ -59,10 +59,10 @@
     "@nodelib/fs.scandir" "2.1.3"
     fastq "^1.6.0"
 
-"@storybook/linter-config@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@storybook/linter-config/-/linter-config-3.1.0.tgz#d71850f173e677ea4a616324945892c49898c386"
-  integrity sha512-UXZ7oUt3sLs66hSrW7lP+DNh3iL1YlpnY78QpNIUbPTsld/zHUSarfkRb/Q8xU/pNBSKfJCuMVrs/ZUZhvAKLw==
+"@storybook/linter-config@3.1.2":
+  version "3.1.2"
+  resolved "https://registry.yarnpkg.com/@storybook/linter-config/-/linter-config-3.1.2.tgz#62391b967503c7c6ef56998aa1fed64db2038a8f"
+  integrity sha512-2Ek2tNS77hNbaz+24ZJEAOatyoU9RY+JXgPOR9Zp347fRTfaAhW5c4uithzl3n4VFF5RmlHjbhZdhn0PZw++wQ==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.27.0"
     eslint-config-airbnb-typescript "^12.3.1"
@@ -75,6 +75,7 @@
     eslint-plugin-json-files "^1.1.0"
     eslint-plugin-jsx-a11y "^6.4.1"
     eslint-plugin-prettier "^3.4.0"
+    eslint-plugin-progress "^0.0.1"
     eslint-plugin-react "^7.24.0"
     eslint-plugin-react-hooks "^4.2.0"
     remark-cli "^9.0.0"
@@ -833,6 +834,11 @@ eslint-plugin-prettier@^3.4.0:
   dependencies:
     prettier-linter-helpers "^1.0.0"
 
+eslint-plugin-progress@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-progress/-/eslint-plugin-progress-0.0.1.tgz#b16bf9af94ffa09650868193e43362a4cf537006"
+  integrity sha512-MAa+Nbw3uAHYKrt5ML2asiXCHdJ4ticANZC/KlfGO5Rck9oB+KhAXc+Zj4bLohci+EAE/3LbbcWyYm3kQuwJiQ==
+
 eslint-plugin-react-hooks@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.2.0.tgz#8c229c268d468956334c943bb45fc860280f5556"
@@ -1374,9 +1380,9 @@ json-schema-traverse@^1.0.0:
   integrity sha512-NM8/P9n3XjXhIZn1lLhkFaACTOURQXjWhV4BA/RnOv8xvgqtqpAX9IO4mRQxSx1Rlo4tqzeqb0sOlruaOy3dug==
 
 json5@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-1.0.1.tgz#779fb0018604fa854eacbf6252180d83543e3dbe"
-  integrity sha512-aKS4WQjPenRxiQsC93MNfjx+nbF4PAdYzmd/1JIj8HYzqfbu86beTuNgXDzPknWk0n0uARlyewZo4s++ES36Ow==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/json5/-/json5-1.0.2.tgz#63d98d60f21b313b77c4d6da18bfa69d80e1d593"
+  integrity sha512-g1MWMLBiz8FKi1e4w0UyVL3w+iJceWAFBAaBnnGKOpNa5f8TLktkbre1+s6oICydWAm+HRUGTmI+//xv2hvXYA==
   dependencies:
     minimist "^1.2.0"
 
@@ -1565,9 +1571,9 @@ minimatch@^3.0.4:
     brace-expansion "^1.1.7"
 
 minimist@^1.2.0, minimist@^1.2.5:
-  version "1.2.5"
-  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.5.tgz#67d66014b66a6a8aaa0c083c5fd58df4e4e97602"
-  integrity sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.7.tgz#daa1c4d91f507390437c6a8bc01078e7000c4d18"
+  integrity sha512-bzfL1YUZsP41gmu/qjrEk0Q6i2ix/cVeAhbCbqH9u3zYutS1cLg00qhrD0M2MVdCcx4Sc0UpP2eBWo9rotpq6g==
 
 ms@2.0.0:
   version "2.0.0"
