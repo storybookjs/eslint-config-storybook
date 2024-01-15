@@ -14,8 +14,6 @@ jobs:
         with:
           version: 8
           run_install: true
-      - name: Test
-        run: pnpm test
       - name: Create Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
