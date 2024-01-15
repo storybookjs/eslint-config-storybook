@@ -8,9 +8,19 @@
     "storybook",
     "config"
   ],
-  "author": "",
-  "license": "ISC",
+  "author": "Norbert de Langen",
+  "license": "MIT",
   "dependencies": {
     "@storybook/linter-config": "4.0.0"
+  },
+  "repository": "storybookjs/eslint-config-storybook",
+  "auto": {
+    "plugins": [
+      "npm",
+      "released"
+    ]
+  },
+  "devDependencies": {
+    "auto": "^11.0.4"
   }
 }
